@@ -2,29 +2,21 @@ jSound
 ======
 
 jQuery Plugin for Background Sound in Web Page
-I have modified the jQuery.sound.js by adding few functions like mute,unmute and volume 
+I have modified the jranand/jSound 
 /**
  * API Documentation
  * 
  * // play a sound from the url
- * $.sound.play(url)
+ * var sound = $.sound(url)
+ * var sound.play()
  * 
- * // play a sound from the url, on a track, stopping any sound already running on that track
- * $.sound.play(url, {
- *   track: "track1"
- * });
  * 
- * // mute a sound 
+ * // mute all sound 
  * $.sound.mute();
  * 
- * // unmute a sound
+ * // unmute all sound
  * $.sound.unmute();
  * 
- * // disable playing sounds
- * $.sound.enabled = false;
- * 
- * // enable playing sounds
- * $.sound.enabled = true
  *
  *
  */
